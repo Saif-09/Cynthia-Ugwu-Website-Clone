@@ -128,6 +128,7 @@ footer .circle{
 
     nav{
         padding: 6vw 4vw;
+        position: fixed;
     }
     nav a{
         color: aliceblue;
@@ -139,7 +140,7 @@ footer .circle{
         font-size: 4vw;
     }
     header{
-        margin-top: 10vw;
+        margin-top: 30vw;
         margin-left: 1vw;
     }
 

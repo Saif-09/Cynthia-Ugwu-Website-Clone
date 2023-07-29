@@ -123,6 +123,7 @@ article{
 }
 
 .elem{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -143,6 +144,85 @@ article{
 .elem h5{
     font-size: 1vw;
 }
+
+.elem img{
+    display: none;
+    position: absolute;
+    z-index: 999;
+    height: 140%;
+}
+
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:90px;
+    width: 100%;
+    padding: 10vw 10vw;
+    padding-left: 40vw;
+    color: white;
+    background-color: black;
+    
+}
+
+#textabout{
+    width: 35rem;
+
+}
+
+#textabout h5{
+    text-transform: uppercase;
+    opacity: .6;
+    margin-bottom: 10px;
+}
+
+#textabout p{
+    line-height: 1.7;
+    margin-bottom: 30px;
+    font-size: 1.15vw;
+
+}
+
+#about img{
+    margin-top: -30px;
+    width: 270px;
+}
+
+#textabout a{
+    padding: 12px 22px;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+}
+#subscribe{
+    color: #fff;
+    padding: 20px 30px;
+    padding-bottom: 7vw;
+    background-color: black;
+
+}
+#subscribe h5{
+    text-transform: uppercase;
+    opacity: .6;
+    
+}
+#subscribe h3{
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 10px;
+}
+footer-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+
+}
+#footer-left{}
+
+#footer-right{}
 
 
 
@@ -245,6 +325,51 @@ article{
     }
     .elem h5{
         font-size: 2.5vw;
+    }
+    #about{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        width: 100%;
+        padding: 5vw 5vw;
+        align-items: baseline;
+        
+    }
+    
+    #about img{
+        margin-top: 0;
+        width: 55vw;
+        
+    }
+    #about p{
+        font-size: 5.4vw;
+        width: 99%;
+    }
+
+    #textabout{
+        margin-top: -35px;
+        width: 21rem;
+    }
+    #textabout p{
+        font-size: 4vw;
+
+    }
+    #subscribe{
+        color: #fff;
+        padding: 20px 30px;
+        background-color: black;
+    
+    }
+    #subscribe h5{
+        text-transform: uppercase;
+        opacity: .6;
+        font-size: 2.9vw;
+        
+    }
+    #subscribe h3{
+        text-transform: uppercase;
+        font-size: 3vw;
+        margin-top: 10px;
     }
 
 }

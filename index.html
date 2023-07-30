@@ -8,29 +8,48 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="loco.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/gsap.min.js"></script>
+
 </head>
 
 <body>
+    <div id="pointer"></div>
     <div id="main">
         <div id="home">
-            <nav>
+            <nav id="nav">
                 <a href="#">Cynthia Ugwu</a>
                 <h4>MENU+</h4>
             </nav>
             <header>
-                <h1>Product</h1>
+                <div class="bounding">
+                    <h1 class="boundingElement">Product</h1>
+
+                </div>
+
                 <div class="blocktext">
-                    <h1 id="secondh1">Designer</h1>
-                    <h5>Based in Toronto</h5>
+                    <div class="bounding">
+                        <h1 class="boundingElement" id="secondh1">Designer</h1>
+                    </div>
+                    <div class="bounding">
+                        <h5 class="boundingElement">Based in Toronto</h5>
+
+                    </div>
+
 
                 </div>
 
             </header>
             <div id="secondaryHeading">
-                <h5>Available for Freelance</h5>
-                <h5>Work from may 23'</h5>
+                <div class="bounding">
+                    <h5 class="boundingElement">Available for Freelance</h5>
+
+                </div>
+                <div class="bounding">
+                    <h5 class="boundingElement">Work from may 23'</h5>
+
+                </div>
             </div>
-            <footer>
+            <footer id="footer">
                 <a href="#">previuosly worked at yml <i class="ri-arrow-right-up-line"></i></a>
                 <a href="#">protopie ambassador <i class="ri-arrow-right-up-line"></i></a>
                 <div id="iconset">
@@ -88,7 +107,8 @@
             </div>
         </footer-main>
     </div>
-
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js">
     </script>
     <script src="script.js"></script>

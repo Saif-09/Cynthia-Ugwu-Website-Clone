@@ -42,26 +42,28 @@ function shrinkPointer(){
     var yprev = 0;
 
     window.addEventListener("mousemove", function(dets){
-        var xdiff = dets.clientX - xprev;
-        var ydiff = dets.clientY - yprev;
+        
+        xscale = gsap.utils.clamp(.8,1.2, dets.clientX - xprev);
+        yscale = gsap.utils.clamp(.8,1.2, dets.clientY - yprev);
 
         xprev = dets.clientX;
         yprev = dets.clientY; 
 
-        xscale = gsap.utils.clamp(.8,1.2, xdiff);
-        yscale = gsap.utils.clamp(.8,1.2, ydiff);
+        showMousePointer(xscale, yscale);
+
+        
     }); 
 
 }
 
-shrinkPointer();
 
 
-function showMousePointer() {
+
+function showMousePointer(xscale, yscale) {
     const pointer = document.querySelector('#pointer');
 
     function updatePointerPosition(x, y) {
-        pointer.style.transform = `translate(${x}px, ${y}px)`;
+        pointer.style.transform = `translate(${x}px, ${y}px) scale(${xscale}, ${yscale})`;
     }
 
     function hidePointer() {
@@ -103,4 +105,8 @@ function showMousePointer() {
 }
 
 showMousePointer();
+shrinkPointer();
+firstPageAnim();
+
+
 

@@ -11,8 +11,8 @@ html,body{
 }
 #pointer{
     position: absolute;
-    width: 10px;
-    height: 10px;
+    width: 12px;
+    height: 12px;
     background-color: #e6dcdcd7;
     border-radius: 50%;
     pointer-events: none;

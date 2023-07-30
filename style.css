@@ -145,7 +145,8 @@ footer .circle{
 
 article{
     padding-right: 10vw;
-    padding-top: 200px;
+    padding-left: 2.5vw;
+    padding-top: 250px;
     width: 100%;
     height: 100vh;
     background-color: black;
@@ -165,7 +166,7 @@ article{
 }
 .elem h1{
     text-transform: uppercase;
-    font-size: 5vw;
+    font-size: 7.2vw;
     opacity: .7;
     user-select: none;
 }
@@ -179,7 +180,7 @@ article{
 .elem img{
     opacity: 0;
     pointer-events: none;
-    height: 140%;
+    height: 190%;
     z-index: 999;
     position: absolute;
     transform: translate(-50%, -50%);

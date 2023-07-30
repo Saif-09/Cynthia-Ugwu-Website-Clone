@@ -217,12 +217,28 @@ footer-main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 30px;
+    padding: 40px 30px;
+    background-color: black;
 
 }
-#footer-left{}
+#footer-left{
+    display: flex;
+    gap: 20px;
+    color: white;
+}
 
-#footer-right{}
+#footer-right{
+    display: flex;
+    gap: 30px;
+}
+
+footer-main a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+}
 
 
 
@@ -239,6 +255,8 @@ footer-main{
     nav{
         padding: 6vw 4vw;
         position: fixed;
+        background-color: black;
+        z-index: 999;
     }
     nav a{
         color: aliceblue;
@@ -370,6 +388,33 @@ footer-main{
         text-transform: uppercase;
         font-size: 3vw;
         margin-top: 10px;
+    }
+
+    footer-main{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: baseline;
+        padding: 40px 30px;
+        background-color: black;
+    
+    }
+    #footer-left{
+        display: flex;
+        gap: 20px;
+        color: white;
+        margin-top: 6vw;
+    }
+    
+    #footer-right{
+        display: flex;
+        gap: 15px;
+        
+    }
+    
+    footer-main a{
+        
+        font-size: 4vw;
+        font-weight: 500;
     }
 
 }

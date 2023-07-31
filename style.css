@@ -180,7 +180,7 @@ article{
 .elem img{
     opacity: 0;
     pointer-events: none;
-    height: 190%;
+    height: 191%;
     z-index: 999;
     position: absolute;
     transform: translate(-50%, -50%);

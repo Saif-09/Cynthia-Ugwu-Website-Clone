@@ -5,3 +5,8 @@
 
  You can Experience it live here - 
  https://cynthia-ugwu-website-clone.netlify.app/
+
+## Screenshots-
+
+<img width="960" src="https://i.ibb.co/ngRBTKC/Screenshot-11.png" alt="ss">
+<img width="960" src="https://i.ibb.co/GdRLHSS/Screenshot-12.png" alt="ss">
